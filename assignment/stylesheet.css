@@ -1,22 +1,42 @@
+body {
+  background: linear-gradient(white 65%, #caa3a2);
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
 
 header{
-  background-color: #c99190;
-  color: #e4ccc0;
-}
-.info{
-  background-color: #caa3a2;
-  color: #e4ccc0;
-  text-align: center;
+  background-color: #aec6cf;
+  color: white;
 }
 
 h3{
   background-color: #caa3a2;
-  color: #e4ccc0;
+  font-size: 30px;
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
 }
 
 .centered{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.info{
+  background-color: #caa3a2;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-right: 400px;
+  margin-left: 400px;
 }
